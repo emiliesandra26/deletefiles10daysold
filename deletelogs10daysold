@@ -1,2 +1,5 @@
 #Delete Files 10 days old
+
 find ./my_dir -mtime +10 -type f -delete
+
+find /var/log/*.log -mtime +10 -type -f delete
